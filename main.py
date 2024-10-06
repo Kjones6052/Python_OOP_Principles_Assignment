@@ -14,3 +14,7 @@ entertainment_category.display_category_summary()
 utilities_category = BudgetCategory("Utilities", 300)
 utilities_category.add_expense(75)
 utilities_category.display_category_summary()
+
+rent_category = BudgetCategory("Rent", 2000)
+rent_category.add_expense(1500)
+rent_category.display_category_summary()

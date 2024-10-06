@@ -16,9 +16,6 @@ class BudgetCategory:
     def get_initial_budget(self):
         return self.__allocated_budget
     
-    # def get_remaining_budget(self):
-    #     return s
-    
     def set_budget(self, new_budget):
         self.remaining_budget = new_budget
     
